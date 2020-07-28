@@ -1,0 +1,29 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "A URL shortener server that returns a short URL against a Post request and redirects to Original website through Get request",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bipinpathak/tinyURL.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "author": "Bipin Pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bipinpathak/tinyURL/issues"
+  },
+  "homepage": "https://github.com/bipinpathak/tinyURL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4"
+  }
+}
